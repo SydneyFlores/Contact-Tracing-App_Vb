@@ -10,3 +10,10 @@ C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Traci
 C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.exe
 C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.xml
 C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.pdb
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.dll
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.dll
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.xml
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.xml
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.vbproj.CopyComplete

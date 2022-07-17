@@ -1,21 +1,22 @@
-﻿Public Class Form1
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+﻿Imports System.IO
 
-    End Sub
 
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+Public Class Form1
+    Dim txtwriter As StreamWriter
 
-    End Sub
 
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
 
-    End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+    Private Sub btnsubmit_Click(sender As Object, e As EventArgs) Handles btnsubmit.Click
+        txtwriter = My.Computer.FileSystem.OpenTextFileWriter("Data.txt", True)
+        txtwriter.WriteLine("FullName: " & TextBoxfn.Text)
+        txtwriter.WriteLine("ContactNumber: " & TextBoxcn.Text)
+        txtwriter.WriteLine("Address: " & RichTextBoxadr.Text)
+        txtwriter.WriteLine("EmailAddress: " & TextBoxea.Text)
+        txtwriter.WriteLine("Date: " & DateTimePickerdate.Text)
 
-    End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
+        txtwriter.Close()
+        MessageBox.Show("Successfully Added")
     End Sub
 End Class

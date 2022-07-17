@@ -1,0 +1,12 @@
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\Contact Tracing app.exe.config
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\Contact Tracing app.exe
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\Contact Tracing app.pdb
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\Contact Tracing app.xml
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.vbproj.AssemblyReference.cache
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact_Tracing_app.Form1.resources
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact_Tracing_app.Resources.resources
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.vbproj.GenerateResource.cache
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.vbproj.CoreCompileInputs.cache
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.exe
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.xml
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.pdb

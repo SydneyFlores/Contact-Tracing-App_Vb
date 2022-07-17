@@ -4,3 +4,10 @@ ContactNumber: 09456057489
 Address: Cuyapo, Nueva Ecija
 EmailAddress: mharsydney@gmail.com
 Date: Sunday, July 17, 2022
+*********************************** 
+
+FullName: syd flores
+ContactNumber: 09123456789
+Address: Quezon Ave
+EmailAddress: mhars@gmail.com
+Date: Sunday, July 17, 2022

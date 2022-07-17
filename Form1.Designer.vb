@@ -23,17 +23,17 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBoxfn = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBoxcn = New System.Windows.Forms.TextBox()
+        Me.TextBoxea = New System.Windows.Forms.TextBox()
+        Me.RichTextBoxadr = New System.Windows.Forms.RichTextBox()
+        Me.DateTimePickerdate = New System.Windows.Forms.DateTimePicker()
+        Me.btnsubmit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -46,13 +46,13 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Contact Tracing Form"
         '
-        'TextBox1
+        'TextBoxfn
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Minion Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(243, 151)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(203, 27)
-        Me.TextBox1.TabIndex = 1
+        Me.TextBoxfn.Font = New System.Drawing.Font("Minion Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxfn.Location = New System.Drawing.Point(243, 151)
+        Me.TextBoxfn.Name = "TextBoxfn"
+        Me.TextBoxfn.Size = New System.Drawing.Size(203, 27)
+        Me.TextBoxfn.TabIndex = 1
         '
         'Label2
         '
@@ -104,45 +104,45 @@ Partial Class Form1
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Date : "
         '
-        'TextBox2
+        'TextBoxcn
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Minion Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(243, 200)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(203, 27)
-        Me.TextBox2.TabIndex = 7
+        Me.TextBoxcn.Font = New System.Drawing.Font("Minion Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxcn.Location = New System.Drawing.Point(243, 200)
+        Me.TextBoxcn.Name = "TextBoxcn"
+        Me.TextBoxcn.Size = New System.Drawing.Size(203, 27)
+        Me.TextBoxcn.TabIndex = 7
         '
-        'TextBox4
+        'TextBoxea
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Minion Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(243, 379)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(203, 27)
-        Me.TextBox4.TabIndex = 9
+        Me.TextBoxea.Font = New System.Drawing.Font("Minion Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxea.Location = New System.Drawing.Point(243, 379)
+        Me.TextBoxea.Name = "TextBoxea"
+        Me.TextBoxea.Size = New System.Drawing.Size(203, 27)
+        Me.TextBoxea.TabIndex = 9
         '
-        'RichTextBox1
+        'RichTextBoxadr
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(243, 249)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(203, 96)
-        Me.RichTextBox1.TabIndex = 11
-        Me.RichTextBox1.Text = ""
+        Me.RichTextBoxadr.Location = New System.Drawing.Point(243, 249)
+        Me.RichTextBoxadr.Name = "RichTextBoxadr"
+        Me.RichTextBoxadr.Size = New System.Drawing.Size(203, 96)
+        Me.RichTextBoxadr.TabIndex = 11
+        Me.RichTextBoxadr.Text = ""
         '
-        'DateTimePicker1
+        'DateTimePickerdate
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(243, 427)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 12
+        Me.DateTimePickerdate.Location = New System.Drawing.Point(243, 427)
+        Me.DateTimePickerdate.Name = "DateTimePickerdate"
+        Me.DateTimePickerdate.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePickerdate.TabIndex = 12
         '
-        'Button1
+        'btnsubmit
         '
-        Me.Button1.Location = New System.Drawing.Point(367, 508)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Submit"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnsubmit.Location = New System.Drawing.Point(367, 508)
+        Me.btnsubmit.Name = "btnsubmit"
+        Me.btnsubmit.Size = New System.Drawing.Size(75, 23)
+        Me.btnsubmit.TabIndex = 13
+        Me.btnsubmit.Text = "Submit"
+        Me.btnsubmit.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -150,17 +150,17 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(477, 577)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.RichTextBox1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.btnsubmit)
+        Me.Controls.Add(Me.DateTimePickerdate)
+        Me.Controls.Add(Me.RichTextBoxadr)
+        Me.Controls.Add(Me.TextBoxea)
+        Me.Controls.Add(Me.TextBoxcn)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TextBoxfn)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Contact Tracing App"
@@ -170,15 +170,15 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBoxfn As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents RichTextBox1 As RichTextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents Button1 As Button
+    Friend WithEvents TextBoxcn As TextBox
+    Friend WithEvents TextBoxea As TextBox
+    Friend WithEvents RichTextBoxadr As RichTextBox
+    Friend WithEvents DateTimePickerdate As DateTimePicker
+    Friend WithEvents btnsubmit As Button
 End Class

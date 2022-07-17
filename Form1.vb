@@ -2,7 +2,8 @@
 Imports AForge
 Imports AForge.Video
 Imports AForge.Video.DirectShow
-
+Imports ZXing
+Imports ZXing.Aztec
 
 
 Public Class Form1
@@ -33,8 +34,9 @@ Public Class Form1
             Display = camDisplay.VideoDevice
             AddHandler Display.NewFrame, New NewFrameEventHandler(AddressOf PictureBoxDisplay)
             Display.Start()
-
+            Timerupdater.Start()
         End If
+
     End Sub
 
     Private Sub PictureBoxDisplay(sender As Object, eventArgs As NewFrameEventArgs)
@@ -43,6 +45,22 @@ Public Class Form1
     End Sub
 
     Private Sub Timerupdater_Tick(sender As Object, e As EventArgs) Handles Timerupdater.Tick
+        Dim camerareader As BarcodeReader = New BarcodeReader()
+        If CameraDisplay.Image IsNot Nothing Then
 
+            Dim readerresult As Result = camerareader.Decode(DirectCast(CameraDisplay.Image, Bitmap))
+            If readerresult IsNot Nothing Then
+                'Dim output As String = readerresult.ToString()
+                'Dim data As String() = output.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+                'TextBoxfn.Text = data(0)
+                'TextBoxcn.Text = data(1)
+                'RichTextBoxadr.Text = data(2)
+                'TextBoxea.Text = data(3)
+                MessageBox.Show(readerresult.ToString())
+                Timerupdater.Stop()
+
+
+            End If
+        End If
     End Sub
 End Class

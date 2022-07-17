@@ -16,4 +16,6 @@ C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.
 C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.xml
 C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.xml
 C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\AForge.Video.DirectShow.xml
-C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\obj\Debug\Contact Tracing app.vbproj.CopyComplete
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\zxing.dll
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\zxing.pdb
+C:\Users\Mhar Sydney\source\repos\vb\Contact Tracing app\bin\Debug\zxing.xml

@@ -169,7 +169,6 @@ Partial Class Form1
         '
         'Timerupdater
         '
-        Me.Timerupdater.Interval = 50
         '
         'Form1
         '

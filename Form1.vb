@@ -50,13 +50,13 @@ Public Class Form1
 
             Dim readerresult As Result = camerareader.Decode(DirectCast(CameraDisplay.Image, Bitmap))
             If readerresult IsNot Nothing Then
-                'Dim output As String = readerresult.ToString()
-                'Dim data As String() = output.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
-                'TextBoxfn.Text = data(0)
-                'TextBoxcn.Text = data(1)
-                'RichTextBoxadr.Text = data(2)
-                'TextBoxea.Text = data(3)
-                MessageBox.Show(readerresult.ToString())
+                Dim output As String = readerresult.ToString()
+                Dim data As String() = output.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+                TextBoxfn.Text = data(0)
+                TextBoxcn.Text = data(1)
+                RichTextBoxadr.Text = data(2)
+                TextBoxea.Text = data(3)
+
                 Timerupdater.Stop()
 
 

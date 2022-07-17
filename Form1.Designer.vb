@@ -34,6 +34,9 @@ Partial Class Form1
         Me.RichTextBoxadr = New System.Windows.Forms.RichTextBox()
         Me.DateTimePickerdate = New System.Windows.Forms.DateTimePicker()
         Me.btnsubmit = New System.Windows.Forms.Button()
+        Me.CameraDisplay = New System.Windows.Forms.PictureBox()
+        Me.btnopen = New System.Windows.Forms.Button()
+        CType(Me.CameraDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -144,12 +147,32 @@ Partial Class Form1
         Me.btnsubmit.Text = "Submit"
         Me.btnsubmit.UseVisualStyleBackColor = True
         '
+        'CameraDisplay
+        '
+        Me.CameraDisplay.Location = New System.Drawing.Point(476, 176)
+        Me.CameraDisplay.Name = "CameraDisplay"
+        Me.CameraDisplay.Size = New System.Drawing.Size(354, 334)
+        Me.CameraDisplay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.CameraDisplay.TabIndex = 14
+        Me.CameraDisplay.TabStop = False
+        '
+        'btnopen
+        '
+        Me.btnopen.Location = New System.Drawing.Point(581, 526)
+        Me.btnopen.Name = "btnopen"
+        Me.btnopen.Size = New System.Drawing.Size(125, 53)
+        Me.btnopen.TabIndex = 15
+        Me.btnopen.Text = "Open Camera"
+        Me.btnopen.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(477, 577)
+        Me.ClientSize = New System.Drawing.Size(842, 671)
+        Me.Controls.Add(Me.btnopen)
+        Me.Controls.Add(Me.CameraDisplay)
         Me.Controls.Add(Me.btnsubmit)
         Me.Controls.Add(Me.DateTimePickerdate)
         Me.Controls.Add(Me.RichTextBoxadr)
@@ -164,6 +187,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Contact Tracing App"
+        CType(Me.CameraDisplay, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -181,4 +205,6 @@ Partial Class Form1
     Friend WithEvents RichTextBoxadr As RichTextBox
     Friend WithEvents DateTimePickerdate As DateTimePicker
     Friend WithEvents btnsubmit As Button
+    Friend WithEvents CameraDisplay As PictureBox
+    Friend WithEvents btnopen As Button
 End Class

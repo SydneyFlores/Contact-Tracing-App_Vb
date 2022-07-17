@@ -41,4 +41,8 @@ Public Class Form1
         bitDisplay = DirectCast(eventArgs.Frame.Clone(), Bitmap)
         CameraDisplay.Image = DirectCast(eventArgs.Frame.Clone(), Bitmap)
     End Sub
+
+    Private Sub Timerupdater_Tick(sender As Object, e As EventArgs) Handles Timerupdater.Tick
+
+    End Sub
 End Class

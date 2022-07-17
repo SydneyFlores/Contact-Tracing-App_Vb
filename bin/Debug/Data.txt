@@ -11,3 +11,10 @@ ContactNumber: 09123456789
 Address: Quezon Ave
 EmailAddress: mhars@gmail.com
 Date: Sunday, July 17, 2022
+*********************************** 
+
+FullName: Mhar Sydney Flores
+ContactNumber: 09613112780
+Address: Cuyapo Nueva Ecija
+EmailAddress: sydneymhars@gmail.com
+Date: Monday, July 18, 2022
